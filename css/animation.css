@@ -4,6 +4,7 @@
     background-color: red;
     position: relative;
     transform: rotate(45deg) translate(10px,10px);
+    animation: ani 1s ease-in-out infinite;
 }
 #center{
     width: 100px;
@@ -15,7 +16,7 @@
     content: '';
     width: 100px;
     height: 100px;
-    background-color: red;
+    background-color: blue;
     position: absolute;
     top: -50px;
     left: 0px;
@@ -25,9 +26,32 @@
     content: '';
     width: 100px;
     height: 100px;
-    background-color: red;
+    background-color: green;
     position: absolute;
     bottom: 0px;
     right: 50px;
     border-radius: 50%;
+}
+@keyframes ani{
+0%{
+    transform: rotate(45deg) translate(10px,10px) scale(1);
+}
+25%{
+    transform: rotate(45deg) translate(10px,10px) scale(1);
+}
+30%{
+    transform: rotate(45deg) translate(10px,10px) scale(2.0);
+}
+50%{
+    transform: rotate(45deg) translate(10px,10px) scale(1.2);
+}
+70%{
+    transform: rotate(45deg) translate(10px,10px) scale(2.0);
+}
+90%{
+    transform: rotate(45deg) translate(10px,10px) scale(1.0);
+}
+100%{
+    transform: rotate(45deg) translate(10px,10px) scale(1.0);
+}
 }
