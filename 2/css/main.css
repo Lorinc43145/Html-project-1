@@ -1,0 +1,82 @@
+body {
+    background-color:black;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #111;
+}
+.container ul li {
+    float: right;
+}
+.container ul li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container ul li a:hover {
+    background-color: red;
+}
+.container {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+.container h1 {
+    color: red;
+    margin: 10px 0;
+}
+.container h2 {
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+.bemutato {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #111;
+    border: 4px solid red;
+    border-radius: 10px;
+}
+.bemutato .content {
+    display: flex;
+    gap: 30px;
+    text-align: justify;
+}
+.bemutato .left,.bemutato .right {
+    flex: 1;
+    padding: 0 20px;
+}
+.bemutato ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.bemutato li {
+    margin-bottom: 10px;
+}
+.drivers {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    gap: 20px;
+    text-align: justify;
+}
+.drivers .leftdr,.drivers .rightdr {
+    flex: 1;
+    padding: 20px;
+    background-color: #111;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.drivers img{
+    width: 350px;
+    height: 400px;
+    align-items: center;
+}
