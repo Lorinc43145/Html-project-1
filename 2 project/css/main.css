@@ -54,9 +54,10 @@ body {
     flex: 1;
     padding: 0 20px;
 }
-.bemutato ul {
+ul {
     list-style-type: square;
     padding-left: 20px;
+    text-decoration: none;
 }
 .bemutato li {
     margin-bottom: 10px;
@@ -115,4 +116,11 @@ a:visited {
 }
 a:active {
   color: red;
+}
+.allrights {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #111;
+    border-top: 2px solid red;
 }
