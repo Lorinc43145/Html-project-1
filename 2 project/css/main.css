@@ -80,3 +80,39 @@ body {
     height: 400px;
     align-items: center;
 }
+.sections{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    display: flex;
+    text-align: justify;
+    gap: 10px;
+}
+.sections .section1,.sections .section2, .sections .section3{
+    text-align: justify;
+    background-color: #111;
+    border: 2px solid red;
+    border-radius: 10px;
+    overflow: auto;
+    flex: 1;
+    padding: 20px;
+}
+.sections .section2 ul li a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+a:link {
+  color: red;
+}
+a:hover {
+  color: red;
+}
+a:visited {
+  color: red;
+}
+a:active {
+  color: red;
+}
