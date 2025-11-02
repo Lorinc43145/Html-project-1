@@ -1,0 +1,50 @@
+.animation-box{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  position: relative;
+  padding: 20px;
+  border: gray 5px solid; 
+}
+.animation-box div::before{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: red;
+  margin: 20px;
+  animation: ani 1s ease-in-out infinite;
+}
+.animation-box div::after{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color:red;
+  margin: 20px;
+  animation: ani 1s ease-in-out infinite;
+}
+@keyframes ani {
+  0%,
+  25% {
+    transform: rotate(45deg) translate(0px, 0px) scale(0);
+  }
+  30%{
+    transform: rotate(45deg) translate(10px, 10px) scale(0.4);
+  }
+  40%{
+    transform: rotate(45deg) translate(10px, 10px) scale(0.8);
+  }
+  50% {
+    transform: rotate(45deg) translate(10px, 10px) scale(1);
+  }
+    70% {
+    transform: rotate(45deg) translate(10px, 10px) scale(1.5);
+  }
+  90%,
+  100% {
+    transform: rotate(45deg) translate(10px, 10px) scale(1.2);
+  }
+}
