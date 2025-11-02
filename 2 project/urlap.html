@@ -1,81 +1,111 @@
 <!DOCTYPE html>
 <html lang="hu">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/main.css">
-  <title>Űrlap</title>
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <nav>
-        <div id="menu">
-          <ul>
-            <li><a href="">media</a></li>
-            <li><a href="">kepgalleria</a></li>
-            <li><a href="">html tablazazt</a></li>
-            <li><a href="urlap.html">html urlap</a></li>
-            <li><a href="animation.html">css animacio</a></li>
-            <li><a href="index.html">főoldal</a></li>
-          </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Űrlap</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div id="menu">
+            <ul>
+              <li><a href="#">media</a></li>
+              <li><a href="#">képgaléria</a></li>
+              <li><a href="#">HTML táblázat</a></li>
+              <li><a href="urlap.html">HTML űrlap</a></li>
+              <li><a href="animation.html">CSS animáció</a></li>
+              <li><a href="index.html">Főoldal</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div id="banner-content">
+          <a href="index.html">
+            <h1 title="F1 rajongók oldala">F1 rajongók oldala</h1>
+          </a>
+          <h2>Készítette: Lázár Lőrinc</h2>
         </div>
-      </nav>
-      <div id="banner-content">
-        <a href="index.html">
-          <h1 title="F1 rajongók oldala">F1 rajongók oldala</h1>
-        </a>
-        <h2>Készitette:Lázár Lőrinc</h2>
       </div>
-  </header>
-  <article class="form">
-    <form action="">
-      <fieldset>
-        <legend>Ki fogja meg nyerni a Brazil nagydijat?</legend>
-        <p><label for="nev">A versenyező neve:<input type="text" name="nev" id="bnev"></label></p>
-        <p><label for="szam">Versenyző rajtszáma:<input type="number" name="bszam" min="1" max="99"></label>
-        </p>
-      </fieldset>
-      <fieldset>
-        <legend>Ki fogja meg nyerni a Qatar nagydijat?</legend>
-        <p><label for="nev">A versenyező neve:<input type="text" name="nev" id="qnev"></label></p>
-        <p><label for="szam">Versenyző rajtszáma:<input type="number" name="szam" id="qszam" min="1" max="99"></label>
-        </p>
-      </fieldset>
-      <fieldset>
-        <legend>Ki fogja meg nyerni a Abu Dhabi nagydijat?</legend>
-        <p><label for="nev">A versenyező neve:<input type="text" name="nev" id="anev"></label></p>
-        <p><label for="szam">Versenyző rajtszáma:<input type="number" name="szam" id="aszam" min="1" max="99"></label>
-        </p>
-      </fieldset>
-      <fieldset>
-        <legend>Ki fogja meg nyerni az egyéni bajnokságot?</legend>
-        <p><label for="nev">A versenyező neve:<input type="text" name="nev" id="egynev"></label></p>
-        <p><label for="szam">Versenyző rajtszáma:<input type="number" name="szam" id="egyszam" min="1" max="99"></label>
-        </p>
-      </fieldset>
-      <fieldset>
-        <legend>Ki fogja meg nyerni a konstruktőri bajnokságot?</legend>
-        <p><label for="csapat">Csapat neve:<input type="text" name="csapat" id="csapat"></label></p>
-      </fieldset>
-      <fieldset>
-        <legend>KI a legjobb pilóta?</legend>
-        <p><label for="legjobb">A versenyező neve:<input type="text" name="legjobb" id="legjobb"></label></p>
-      </fieldset>
-      <fieldset>
-        <legend>Ha szertnél fel iratkozni a további hirekért </legend>
-        <p><label for="nev">Telsen neved:<input type="text" name="nev" id="felnev"></label></p>
-        <p><label for="email">E-mail címed:<input type="email" name="email" id="email"></label></p>
-      </fieldset>
-      <p><input type="submit" value="Elküld"></p>
-      <p><input type="reset" value="alaphelyzet"></p>
-    </form>
-  </article>
-  <footer class="allrights">
-    <h2>2025/2026|All rights reserved</h2>
-  </footer>
-</body>
-
+    </header>
+    <article class="form">
+      <form action="">
+        <fieldset>
+          <legend>Ki fogja megnyerni a Brazil nagydíjat?</legend>
+          <p>
+            <label for="bnev">A versenyző neve:</label
+            ><input type="text" name="nev" id="bnev" />
+          </p>
+          <p>
+            <label for="bszam">Versenyző rajtszáma:</label
+            ><input type="number" name="bszam" id="bszam" min="1" max="99" />
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Ki fogja megnyerni a Qatar nagydíjat?</legend>
+          <p>
+            <label for="qnev">A versenyző neve:</label
+            ><input type="text" name="nev" id="qnev" />
+          </p>
+          <p>
+            <label for="qszam">Versenyző rajtszáma:</label
+            ><input type="number" name="szam" id="qszam" min="1" max="99" />
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Ki fogja megnyerni az Abu Dhabi nagydíjat?</legend>
+          <p>
+            <label for="anev">A versenyző neve:</label
+            ><input type="text" name="nev" id="anev" />
+          </p>
+          <p>
+            <label for="aszam">Versenyző rajtszáma:</label
+            ><input type="number" name="szam" id="aszam" min="1" max="99" />
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Ki fogja megnyerni az egyéni bajnokságot?</legend>
+          <p>
+            <label for="egynev">A versenyző neve:</label
+            ><input type="text" name="nev" id="egynev" />
+          </p>
+          <p>
+            <label for="egyszam">Versenyző rajtszáma:</label
+            ><input type="number" name="szam" id="egyszam" min="1" max="99" />
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Ki fogja megnyerni a konstruktőri bajnokságot?</legend>
+          <p>
+            <label for="csapat">Csapat neve:</label
+            ><input type="text" name="csapat" id="csapat" />
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Ki a legjobb pilóta?</legend>
+          <p>
+            <label for="legjobb">A versenyző neve:</label
+            ><input type="text" name="legjobb" id="legjobb" />
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Ha szeretnél feliratkozni a további hírekért</legend>
+          <p>
+            <label for="felnev">Teljes neved:</label
+            ><input type="text" name="nev" id="felnev" />
+          </p>
+          <p>
+            <label for="email">E-mail címed:</label
+            ><input type="email" name="email" id="email" />
+          </p>
+        </fieldset>
+        <p><input type="submit" value="Elküld" /></p>
+        <p><input type="reset" value="Alaphelyzet" /></p>
+      </form>
+    </article>
+    <footer class="allrights">
+      <h2>2025/2026 | All rights reserved</h2>
+    </footer>
+  </body>
 </html>
