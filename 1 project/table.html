@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>11a2 HTML Projekt 2026</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        padding: 5px 10px;
+        border-collapse: collapse;
+      }
+      th {
+        background-color: cornflowerblue;
+        text-align: center;
+        color: white;
+      }
+      table-container {
+        width: 650px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+      }
+      table:tr:nth-child(2) {
+        background-color: lightcyan;
+      }
+      table:tr:nth-child(4) {
+        background-color: #ccc;
+        color: white;
+      }
+      table:tr:hover {
+        background-color:cadetblue;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <a href="index.html"
+          ><img
+            src="images/premologo.png"
+            alt="premo logo"
+            width="190"
+            title="premo-logo"
+        /></a>
+      </div>
+      <div id="banner-content">
+        <a href="index.html"
+          ><h1 title="11a HTML project 2026">11a HTML project 2026</h1></a
+        >
+        <h2>header</h2>
+      </div>
+    </header>
+    <div class="container">
+      <nav>
+        <h2>&#171;nav&#187;</h2>
+        <div id="menu">
+          <ul>
+            <li><a href="index.html">Főoldal</a></li>
+            <li>
+              <a href="">HTML demo</a>
+              <ul>
+                <li><a href="animation.html">css animacio</a></li>
+                <li><a href="form.html">html urlap</a></li>
+                <li><a href="table.html">html tablazazt</a></li>
+                <li><a href="gallery.html">kepgalleria</a></li>
+                <li><a href="media.html">media</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section>
+        <h2>«section»</h2>
+        <article>
+          <h2>HTML TABLAZAT</h2>
+          <div class="table-container">
+            <table>
+              <caption>
+                Diákok eredményei 2025/26
+              </caption>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Név</th>
+                  <th>Foglalkozás</th>
+                  <th></th>
+                  <th>Lakcim</th>
+                  <th>telefonszam</th>
+                  <th>email cim</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Nagy Balázs</td>
+                  <td>programozo</td>
+                  <td>pekutca 10</td>
+                  <td>363012387312</td>
+                  <td>gipszjakab@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Joe Doe</td>
+                  <td>Web developer</td>
+                  <td>baker street 10</td>
+                  <td>11111</td>
+                  <td>doejoe@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Hapci marci</td>
+                  <td>Iszap fozes</td>
+                  <td>nugin utca 210</td>
+                  <td>1231231</td>
+                  <td>hapci@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Bél Flora</td>
+                  <td>onlyfans</td>
+                  <td>kaidw</td>
+                  <td>3630112321</td>
+                  <td>onlyfans@gmail.com</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+    </div>
+    <footer>
+      <h2>&#171;footer&#187; <br />&#169; 2025/2026|All rights reserved</h2>
+    </footer>
+  </body>
+</html>
