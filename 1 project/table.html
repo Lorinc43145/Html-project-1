@@ -6,12 +6,15 @@
     <link rel="stylesheet" href="css/main.css" />
     <title>11a2 HTML Projekt 2026</title>
     <style>
-      table,
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
       th,
       td {
         border: 1px solid black;
         padding: 5px 10px;
-        border-collapse: collapse;
+        text-align: center;
       }
       th {
         background-color: cornflowerblue;
@@ -25,15 +28,23 @@
         margin-right: auto;
         margin-top: 50px;
       }
-      table:tr:nth-child(2) {
+
+      table tr:nth-child(2) {
         background-color: lightcyan;
       }
-      table:tr:nth-child(4) {
+
+      table td:nth-child(4) {
         background-color: #ccc;
         color: white;
       }
-      table:tr:hover {
-        background-color:cadetblue;
+
+      table tr:hover {
+        background-color: cadetblue;
+        color: white;
+      }
+
+      table tr.lakcím {
+        background-color: red;
         color: white;
       }
     </style>
@@ -50,9 +61,9 @@
         /></a>
       </div>
       <div id="banner-content">
-        <a href="index.html"
-          ><h1 title="11a HTML project 2026">11a HTML project 2026</h1></a
-        >
+        <a href="index.html">
+          <h1 title="11a HTML project 2026">11a HTML project 2026</h1>
+        </a>
         <h2>header</h2>
       </div>
     </header>
@@ -76,57 +87,59 @@
         </div>
       </nav>
       <section>
-        <h2>«section»</h2>
+        <h2>«Section»</h2>
         <article>
-          <h2>HTML TABLAZAT</h2>
+          <h2>«Article»</h2>
           <div class="table-container">
             <table>
-              <caption>
-                Diákok eredményei 2025/26
-              </caption>
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>Név</th>
+                  <th>NéV</th>
                   <th>Foglalkozás</th>
-                  <th></th>
-                  <th>Lakcim</th>
-                  <th>telefonszam</th>
-                  <th>email cim</th>
+                  <th>Lakcím</th>
+                  <th>Telefonszám</th>
+                  <th>Email</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Nagy Balázs</td>
-                  <td>programozo</td>
-                  <td>pekutca 10</td>
-                  <td>363012387312</td>
+                  <td>Gipsz Jakab</td>
+                  <td>Programozó</td>
+                  <td>Pék utca 10</td>
+                  <td>123456789</td>
                   <td>gipszjakab@gmail.com</td>
                 </tr>
+              </tbody>
+              <tbody>
                 <tr>
                   <td>2</td>
-                  <td>Joe Doe</td>
+                  <td>Kiksz Jakab</td>
                   <td>Web developer</td>
-                  <td>baker street 10</td>
-                  <td>11111</td>
-                  <td>doejoe@gmail.com</td>
+                  <td>Baker utca 10</td>
+                  <td>123556789</td>
+                  <td>Kikszjakab@gmail.com</td>
                 </tr>
+              </tbody>
+              <tbody>
                 <tr>
                   <td>3</td>
-                  <td>Hapci marci</td>
-                  <td>Iszap fozes</td>
-                  <td>nugin utca 210</td>
-                  <td>1231231</td>
-                  <td>hapci@gmail.com</td>
+                  <td>Hapci Jakab</td>
+                  <td>Kamionos</td>
+                  <td class="Lakcím">Baker utca 20</td>
+                  <td>123556889</td>
+                  <td>Hapcijakab@gmail.com</td>
                 </tr>
+              </tbody>
+              <tbody>
                 <tr>
                   <td>4</td>
-                  <td>Bél Flora</td>
-                  <td>onlyfans</td>
-                  <td>kaidw</td>
-                  <td>3630112321</td>
-                  <td>onlyfans@gmail.com</td>
+                  <td>Gaj Matyás</td>
+                  <td>Kamionos</td>
+                  <td>Baker utca 40</td>
+                  <td>123556889</td>
+                  <td>gajmatyas@gmail.com</td>
                 </tr>
               </tbody>
             </table>
