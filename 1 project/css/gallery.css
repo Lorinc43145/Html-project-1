@@ -1,0 +1,31 @@
+.gallery {
+    width: 100%;
+}
+
+.gallery img {
+    width: 180px;
+    height: 180px;
+    border: 1px solid #bbb;
+    opacity: 0.7;
+}
+
+figure.item {
+    float: left;
+    width: 180px;
+}
+
+figure {
+    margin: 25px;
+}
+a img {
+    padding: 3px;
+}
+.caption {
+    display: block;
+    font-size: 0.8em;
+    font-style: italic;
+}
+.gallery img:hover {
+    opacity: 1;
+    border: 1px solid black;
+}   
