@@ -3,10 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+    <script
+      type="text/javascript"
+      src="fancybox/jquery.mousewheel-3.0.4.pack.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="fancybox/jquery.fancybox-1.3.4.pack.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="fancybox/jquery.easing-1.3.pack.js"
+    ></script>
+    <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" />
+    <script type="text/javascript" src="js/fancybox-effects.js"></script>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/gallery.css" />
     <title>Gallery</title>
   </head>
+
   <body>
     <header>
       <div id="logo">
@@ -19,7 +35,6 @@
           />
         </a>
       </div>
-
       <div id="banner-content">
         <a href="index.html">
           <h1 title="11a HTML Projekt 2026">11a HTML Projekt 2026</h1>
@@ -27,7 +42,6 @@
         <h2>&#171;header&#187;</h2>
       </div>
     </header>
-
     <div class="container">
       <nav>
         <h2>&#171;nav&#187;</h2>
@@ -47,50 +61,57 @@
           </ul>
         </div>
       </nav>
-
       <section>
         <h2>&#171;section&#187;</h2>
         <article>
           <h2>&#171;article&#187;</h2>
-
           <div class="gallery">
             <figure class="item">
-              <a href="images/images.jpg"><img src="images/images.jpg" alt="kep1" /></a>
+              <a id="example1" href="images/images.jpg">
+                <img src="images/images.jpg" alt="kep1" />
+              </a>
               <figcaption class="caption">kep1</figcaption>
             </figure>
-
             <figure class="item">
-              <a href="images/letöltés (1).jpg"><img src="images/letöltés (1).jpg" alt="kep2" /></a>
+              <a id="example1" href="images/letöltés (1).jpg">
+                <img src="images/letöltés (1).jpg" alt="kep2" />
+              </a>
               <figcaption class="caption">kep2</figcaption>
             </figure>
-
             <figure class="item">
-              <a href="images/letöltés (2).jpg"><img src="images/letöltés (2).jpg" alt="kep3" /></a>
+              <a id="example1" href="images/letöltés (2).jpg">
+                <img src="images/letöltés (2).jpg" alt="kep3" />
+              </a>
               <figcaption class="caption">kep3</figcaption>
             </figure>
-
             <figure class="item">
-              <a href="images/letöltés (3).jpg"><img src="images/letöltés (3).jpg" alt="kep4" /></a>
+              <a id="example1" href="images/letöltés (3).jpg">
+                <img src="images/letöltés (3).jpg" alt="kep4" />
+              </a>
               <figcaption class="caption">kep4</figcaption>
             </figure>
-
             <figure class="item">
-              <a href="images/letöltés (4).jpg"><img src="images/letöltés (4).jpg" alt="kep5" /></a>
+              <a rel="example_group" href="images/letöltés (4).jpg">
+                <img src="images/letöltés (4).jpg" alt="kep5" />
+              </a>
               <figcaption class="caption">kep5</figcaption>
             </figure>
-
             <figure class="item">
-              <a href="images/letöltés (5).jpg"><img src="images/letöltés (5).jpg" alt="kep6" /></a>
+              <a rel="example_group" href="images/letöltés (5).jpg">
+                <img src="images/letöltés (5).jpg" alt="kep6" />
+              </a>
               <figcaption class="caption">kep6</figcaption>
             </figure>
-
             <figure class="item">
-              <a href="images/letöltés (6).jpg"><img src="images/letöltés (6).jpg" alt="kep7" /></a>
+              <a rel="example_group" href="images/letöltés (6).jpg">
+                <img src="images/letöltés (6).jpg" alt="kep7" />
+              </a>
               <figcaption class="caption">kep7</figcaption>
             </figure>
-
             <figure class="item">
-              <a href="images/letöltés.jpg"><img src="images/letöltés.jpg" alt="kep8" /></a>
+              <a rel="example_group" href="images/letöltés.jpg">
+                <img src="images/letöltés.jpg" alt="kep8" />
+              </a>
               <figcaption class="caption">kep8</figcaption>
             </figure>
           </div>
