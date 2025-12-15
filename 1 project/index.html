@@ -5,7 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/pop.css" />
     <title>11a2 HTML Projekt 2026</title>
+    <script>
+      function openForm() {
+        document.getElementById("myform").style.display = "block";
+      }
+      function closeForm() {
+        document.getElementById("myform").style.display = "none";
+      }
+    </script>
   </head>
   <body>
     <header>
@@ -139,5 +148,17 @@
     <footer>
       <h2>&#171;footer&#187; <br />&#169; 2025/2026 | All rights reserved</h2>
     </footer>
+    <button class="open-button" onclick="openForm()">Open form</button>
+    <div class="form-popup" id="myform">
+      <form action="" class="form-container">
+        <h1>Login</h1>
+        <label for="">Email</label>
+        <input type="text" name="email" placeholder="Enter email" />
+        <label for="">Password</label>
+        <input type="password" name="password" placeholder="Enter password" />
+        <button type="submit" class="btn">Login</button>
+        <button type="button" class="btn" onclick="closeForm()">Close</button>
+      </form>
+    </div>
   </body>
 </html>
